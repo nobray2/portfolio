@@ -12,7 +12,12 @@ h2{
 }
 h1, h2 {
     font-family: "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    font-weight: normal;
 }
 ul{
     list-style-type: disc;
+}
+a{
+    text-decoration: none;
 }
