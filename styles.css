@@ -4,6 +4,9 @@ body{
     font-size: 16px;
 }
 
+.dog{
+    text-align: center;
+}
 h1{
     font-size: 2em;
 }
@@ -20,4 +23,52 @@ ul{
 }
 a{
     text-decoration: none;
+}
+.page-one {
+    width: 600px;
+    margin: 0 auto;
+    color: #292929
+  }
+.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-item {
+    display: inline;
+}
+
+
+
+
+.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu-item {
+    float: left;
+}
+
+.menu-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.active {
+    background-color: #04AA6D;
+}
+
+.menu-item {
+    border-right: 1px solid #bbb;
+}
+#contact {
+    color: #fcfcfc
 }
