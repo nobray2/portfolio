@@ -1,17 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body{
     color: #414141;
     background-color: #c5c5c5;
     font-size: 16px;
 }
+p {
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+em, strong {
+    background-color: #B2D6FF;    /* Light blue */
+}
+
+h1, h2, title {
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 
 .dog{
     text-align: center;
 }
 h1{
     font-size: 2em;
+    margin: 20px auto;
 }
 h2{
     font-size: 1.5 em;
+    text-align: center;
 }
 h1, h2 {
     font-family: "Helvetica", "Arial", sans-serif;
@@ -68,7 +92,4 @@ a{
 
 .menu-item {
     border-right: 1px solid #bbb;
-}
-#contact {
-    color: #fcfcfc
 }
