@@ -5,7 +5,7 @@
     <link rel='stylesheet' href='styles.css'/>
     <title>Home Page</title>
   </head>
-  <body>
+  <!--<body>
     <ul class="menu-list">
       <li class="menu-item"><a class="menu-link" href="default.asp">Home</a></li>
       <li class="menu-item"><a class="menu-link" href="news.asp">News</a></li>
@@ -13,7 +13,7 @@
       <li class="menu-item"><a class="menu-link active"href="about.asp">About</a></li>
     </ul>
     <div class="page-one">
-      <h1><p class="dog">About me</p></h1>
+      <h1><p>About me</p></h1>
       <p>I am currently a student at BYU studying computer science. This is my third year studying at this university. My goal is to get my underaduate with a focus on data science, and then look to get a masters degree in the same subject.</p>
       <h2>Projects</h2>
       <p>I have worked on the following projects:</p>
@@ -39,5 +39,55 @@
     </div>
 
 
-  </body>
+  </body>-->
+  <body>
+    <div class='menu-container'>
+        <div class='menu'>
+            <div class='date'><a class="menu-link" href="default.asp">Home</a></div>
+            <div class='contact'><a class="menu-link" href="contact.asp">Contact</a></div>
+            <div class='l'><a class="menu-link active"href="about.asp">About</a></div>
+        </div>
+    </div>
+    <div class='header-container'>
+        <div class='header'>
+            <h1>About me</h1>
+            <p>I am currently a student at BYU studying computer science. This is my third year studying at this university. My goal is to get my underaduate with a focus on data science, and then look to get a masters degree in the same subject.</p>
+        </div>
+    </div>
+    <div class='photo-grid-container'>
+        <div class='photo-grid'>
+            <div class='photo-grid-item first-item'>
+                <h2>Projects:</h2>
+            </div>
+            <div class='photo-grid-item'>
+                <ul>
+                    <li>I created a parser/interperter program that can interact with a database to take in and execute datalog queries</li>
+                    <li>A tic tac toe simulator, where one can either play against a computer opponent or another person</li>
+                    <li>A New Testament text based choose your own adventure game</li>
+                </ul>
+            </div>
+            <div class='photo-grid-item'>
+                <h2>Experience:</h2>
+            </div>
+            <div class='photo-grid-item'>
+                <ul> 
+                    <li>Clerical work for southwest spine and pain</li>
+                    <li>On campus security at the BYU data center</li>
+                    <li>Interned for the tech startup <a href='https://www.shifthealth.io'target='_blank'>Shift Health</a></li> 
+                </ul>
+            </div>
+            <div class='photo-grid-item last-item'>
+                <h2 id='contact'>Contact me</h2>
+                <ul>
+                    <li>Phone number: 4356685072</li>
+                    <li>Email: nobray2@gmail.com</li>
+                    <li>Home Phone: 4356272502</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class='footer'>
+    </div>
+</body>
 </html>
